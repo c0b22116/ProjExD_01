@@ -5,7 +5,7 @@ def main():
     pg.display.set_caption("はじめてのPygame")
     screen = pg.display.set_mode((800, 600))
     clock  = pg.time.Clock()
-    fonto  = pg.font.Font(None, 280)
+    fonto  = pg.font.Font(None, 80)
     tmr = 0
 
     while True:
